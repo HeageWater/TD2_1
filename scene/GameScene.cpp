@@ -29,7 +29,6 @@ void GameScene::Update() {
 			audio_->PauseWave(BGM);
 		}
 	}
-
 }
 
 void GameScene::Draw() {
