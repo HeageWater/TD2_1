@@ -23,9 +23,7 @@ void GameScene::Update() {
 	// BGM
 	if (input_->TriggerKey(DIK_SPACE)) {
 		if (audio_->IsPlaying(BGM) != true) {
-
 			audio_->PlayWave(BGM, true, 0.05);
-			//audio_->ResumeWave(BGM);
 		}
 		else {
 			audio_->PauseWave(BGM);
