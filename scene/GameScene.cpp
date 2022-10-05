@@ -19,7 +19,6 @@ void GameScene::Initialize() {
 }
 
 void GameScene::Update() {
-
 	// BGM
 	if (input_->TriggerKey(DIK_SPACE)) {
 		if (audio_->IsPlaying(BGM) != true) {
