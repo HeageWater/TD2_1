@@ -69,6 +69,7 @@ void GameScene::Draw() {
 	/// ここに前景スプライトの描画処理を追加できる
 	/// </summary>
 
+	//曲が鳴ってるか
 	debugText_->SetPos(50, 50);
 	debugText_->Printf("viewProjection_:(%d)", audio_->IsPlaying(BGM));
 
